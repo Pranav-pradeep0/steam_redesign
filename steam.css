@@ -24,9 +24,6 @@ header{
     width: auto;
 }
 
-.tpchrt{
-    
-}
 
 .crdimg{
     filter: brightness(50%);
@@ -71,6 +68,16 @@ header{
     .tpslrbody{
         font-size: medium;
     }
+
+    .topchrt{
+      
+    }
+}
+
+@media(max-width:420px){
+  .topchrt{
+    margin-top: 50px;
+  }
 }
 
 
@@ -96,7 +103,11 @@ header{
         width: 160px;
         margin-left: -45px;
     }
-    
+
+    .topchrt{
+      margin-top: 30px;
+      font-size: x-large;
+}
 }
 
 .freegames{
@@ -126,7 +137,70 @@ header{
         margin-top: 50px;
         margin-left: 50px;
     }
+
+    .topchrt{
+      margin-top: 30px;
+      font-size: x-large;
+    }
 }
+
+
+@media(max-width:1490px){
+  .topchrt{
+    font-size: small;
+  }
+}
+
+
+@media(max-width:992px){
+  .topchrt{
+    padding-top: 20px;
+    font-size: x-large;
+  }
+}
+
+
+@media(max-width:420px){
+  .buynow{
+    display: flex;
+  }
+
+  .cart{
+    margin-right: 3px;
+  }
+
+  .hgwrds{
+    padding-bottom: 15px;
+  }
+
+  .tlos{
+    padding-bottom: 6px;
+  }
+
+  .tlosr{
+    padding-bottom: 6px;
+  }
+
+  .jedi{
+    font-size: small;
+  }
+
+  .fallguys{
+    padding-bottom: 7px;
+  }
+
+  .fallguysr{
+    padding-bottom: 8px;
+  }
+
+  .topchrt{
+    padding-top: 10px;
+  }
+}
+
+
+
+
 
 .catalogimg{
     transition: 300ms;
@@ -135,6 +209,9 @@ header{
 .catalogimg:hover{
     transform: scale(1.01);
 }
+
+
+
 
 
 
